@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant</title>
+    <link href="Restaurant Website style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <div class="mobile-container">
+          <div class="top-nav">
+              <div id="navlinks">
+                  <a href="#">Tacos</a>
+                  <a href="#">Burgers</a>
+                  <a href="#">Drinks</a>
+                  <a href="#">Desserts</a>
+                  <a href="#">Reservations</a>
+              </div>
+              <a href="#" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+          </div>
+      </div>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li class="tacos">
+                    <a href="">Tacos</a>
+                </li>
+                <li class="burgers">
+                    <a href="">Burgers</a>
+                </li>
+                <li  class="drinks">
+                    <a href="">Drinks</a>
+                </li>
+                <li class="desserts">
+                    <a href="">Desserts</a>
+                </li>
+                <li class="reservations">
+                    <a href="">Reservations</a>
+                </li>       
+            </ul>
+        </div>    
+        <div class="prices">
+            <div class="hero">
+                <p class="p-text1">Terry's Taco Joint</p>
+                <p class="p-text2">Pretty Good Tacos!</p>
+            </div>
+            <div class="prices1">
+                <p class="price1">1.99$</p>
+                <p class="p-text3">Tacos</p>
+            </div>
+            <div class="prices2">
+                <p class="price2">3.99$</p>
+                <p class="p-text4">Burger</p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="T">
+                <img src="taco1.png" width="50" height="50">
+                <p>Tacos</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="B">
+                <img src="burger.png" width="50" height="50">
+                <p>Burger</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="D">
+                <img src="drink.png" width="50" height="50">
+                <p>Drink</p>  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="M">
+                <img src="music.png" width="50" height="50">
+                <p>Music</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+        </div>
+        <div class="about">    
+            <div class="image">
+                <img src="taco.png" width="370" height="370">
+            </div>    
+            <div class="f-taco">
+                <p class="h1">Featured Taco</p>
+                <p class="text3">Slim Profile, easy to hold and loaded with cheese.
+                       <br>
+                    This is the one you have been waiting for</p>
+                <button>Learn More!</button>    
+            </div>
+        </div>    
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navlinks");
+            if(x.style.display === "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+  </body>
+</html>
